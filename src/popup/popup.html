@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/miscellaneous.css" />
+    <link rel="stylesheet" href="css/glowing_button.css" />
+    <link rel="stylesheet" href="css/check_box.css" />
+    <script type="text/javascript" src="../../src/engines/search_engines_configs.js" defer></script>
+    <script type="text/javascript" src="../../dorks.js" defer></script>
+    <script type="text/javascript" src="popup.js" defer></script>
+  </head>
+  <body>
+
+    <div id="main_container">
+      <div class="container">
+        <div id="start_button_container">
+          <button class="glowing-btn" id="start_button">
+            <span class="glowing-txt">DORK IT</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="search_engines_container">
+          <!-- Elements will be inserted automatically by popup.js -->
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="info_button_container">
+          <button class="glowing-btn" id="info_button">
+            <span class="glowing-txt">INFO</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="chosen_engines_without_dorks" class="special_message">Will be inserted when needed</div>
+    </div>
+
+    <div id="info_container">
+      <div class="container">
+        <div id="return_button_container">
+          <button class="glowing-btn" id="return_button">
+            <span class="glowing-txt">RETURN</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="info_text">
+        You can add your favorite dorks in the ./dorks.js file.<br><br>
+        Configurations can be changed in the ./configurations.js file.<br><br>
+        After clicking on the "DORK IT" button a tab for each chosen engine will be opened.<br>
+        The tab must be closed before a new tab for the same engine can be opened again.
+      </div>
+    </div>
+
+    <div id="tab_error" class="special_message">Failure detected.<br>More info in the log.</div>
+
+  </body>
+</html>

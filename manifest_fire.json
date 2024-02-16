@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "AutoDorker",
+  "description": "Automatic dorking for different search engines.",
+  "version": "1.0",
+  "permissions": ["scripting", "tabs", "storage"],
+  "host_permissions": ["https://*/*"],
+  "background": {
+		"scripts": ["src/background.js"]
+	},
+  "icons": {
+    "24": "/src/icons/dork_24.png",
+    "32": "/src/icons/dork_32.png",
+    "64": "/src/icons/dork_64.png",
+    "128": "/src/icons/dork_128.png",
+    "256": "/src/icons/dork_256.png",
+    "512": "/src/icons/dork_512.png"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "24": "/src/icons/dork_24.png",
+      "32": "/src/icons/dork_32.png",
+      "64": "/src/icons/dork_64.png",
+      "128": "/src/icons/dork_128.png",
+      "256": "/src/icons/dork_256.png",
+      "512": "/src/icons/dork_512.png"
+    }
+  }
+}

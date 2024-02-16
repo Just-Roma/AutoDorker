@@ -1,0 +1,60 @@
+:root {
+  --bg-color: #181729;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: var(--bg-color);
+}
+
+.container {
+  position: relative;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.special_message {
+  padding: 5px 5px;
+  padding-left: 10px;
+  display: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#start_button_container, #info_button_container, #return_button_container {
+  position: relative;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#info_button_container {
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+#info_container {
+  display: none;
+}
+
+#info_text {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#search_engines_container {
+  position: relative;
+  padding-left: 5px;
+  align-items: center;
+  justify-content: center;
+}

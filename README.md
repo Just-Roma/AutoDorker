@@ -27,8 +27,7 @@ The extension will do the hard work for you.
       <img src="https://github.com/Just-Roma/AutoDorker/assets/64587275/1f1aec89-f665-4b51-b912-cfb184d77164" width="750" height="400">
 
 # How to use:  
-The extension can execute hundreds of dorks for all engines simultaneously. It shall also be possible to execute several thousands dorks, but it depends on how much memory is available in the sessionStorage.
-If you want to use all engines at the same time, make sure that you have enough RAM, because simultaneous execution would consume ~ 1Gb memory.
+The extension can execute hundreds of dorks for a single engine while executing all engines simultaneously. It shall also be possible to execute several thousands dorks, but it depends on how much memory is available in the sessionStorage. If you want to use all engines at the same time, make sure that you have enough RAM, because simultaneous execution would consume ~ 1Gb memory.
 
 Available configurations files:  
   - ./dorks.js is to add dorks for engine(s).  
@@ -45,6 +44,9 @@ Some quirks were observed while testing/using:
 Notes:  
   - It is advised to handle the pop-ups (eg consent windows) before execution. Though there shall be no issues if it is not handled, but there is no guarantee.
   - Yandex uses very aggressive captcha quite often, so it is better to use only a small set of dorks for it. But you can also just try it with many dorks, if you are lucky, then the bot detector will be relaxed and will not bother you. Happens rarely though.
+
+# Disclaimer:
+This extension is designed to assist researchers in gathering publicly available data. The author is not responsible for users actions.
 
 # Licence
 MIT :copyright:

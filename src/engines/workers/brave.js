@@ -44,9 +44,9 @@ if (!window.worker_injected){
       let link, classes, div_links, div_title, link_header = null;
       /*
       Loop over all div containers with results. */
-      for (const div of document.getElementsByClassName('snippet svelte-eejxak')){
+      for (const div of document.getElementsByClassName('snippet svelte-me7t04')){
         classes = div.classList;
-        if (classes.length == 2 && classes.contains('snippet') && classes.contains('svelte-eejxak')){
+        if (classes.length == 2 && classes.contains('snippet') && classes.contains('svelte-me7t04')){
           div_links = div.getElementsByTagName('a');
           if (div_links.length){
             link = div_links[0];

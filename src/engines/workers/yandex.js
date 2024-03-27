@@ -17,7 +17,7 @@ if (!window.worker_injected){
       let link, li_links, link_header = null;
       /*
       Loop over all li containers with results. */
-      for (const li of document.getElementsByClassName('nsPnNLkWolah3 nsPnNLkWolah3_card ')){
+      for (const li of document.getElementById('search-result').getElementsByTagName('li')){
         // Side windows have 'data-fast-name' attribute.
         if (!li.hasAttribute('data-fast-name')){
           li_links = li.getElementsByTagName('a');
